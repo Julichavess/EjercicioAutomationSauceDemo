@@ -1,0 +1,14 @@
+Para volver a alevnatar el proyecto en cypress
+
+npx cypress open
+
+para dejarlo seteado en package.json:
+
+"scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "cypress:open": "cypress open"
+}
+
+y luego usar en la terminal:
+
+npm run cypress:open
